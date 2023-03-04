@@ -20,23 +20,81 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 15px;
+}
+
+.desc,
+.deadline {
+  color: hsl(215, 51%, 70%);
+}
+
+.desc {
+  padding-bottom: 15px;
+}
+
+.balance {
+  color: hsl(178, 100%, 50%);
 }
 
 .nft {
   width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-.eth {
+.eth-card {
   display: flex;
   justify-content: space-between;
 }
 
+.eth,
+.countdown {
+  display: flex;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.countdown {
+  justify-content: end;
+}
+
+.eth-img {
+  height: 20px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.hr {
+  border-width: .5px;
+}
+
 .creation {
   display: flex;
+  padding-top: 20px;
 }
 
 .avatar {
-  width: 25px;
+  height: 30px;
+  width: 20px;
+  padding-right: 10px;
+  border: solid 1px hsl(0, 0%, 100%);
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+
+span {
+  color: hsl(215, 51%, 70%);
+}
+
+.creator {
+  color: hsl(0, 0%, 100%);
 }
 
 .attribution {
